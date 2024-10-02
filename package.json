@@ -1,0 +1,31 @@
+{
+  "name": "testing-with-nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "./node_modules/.bin/nightwatch.cmd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviteixeira-dev/testing-with-nightwatch.git"
+  },
+  "keywords": [
+    "nightwatch.js"
+  ],
+  "author": "Davi Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviteixeira-dev/testing-with-nightwatch/issues"
+  },
+  "homepage": "https://github.com/daviteixeira-dev/testing-with-nightwatch#readme",
+  "devDependencies": {
+    "chromedriver": "^90.0.1",
+    "geckodriver": "^3.0.0",
+    "nightwatch": "^1.7.12"
+  },
+  "engines": {
+    "node": "12.22.12",
+    "npm": "6.14.18"
+  }
+}
