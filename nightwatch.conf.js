@@ -31,9 +31,10 @@ module.exports = {
       launch_url: 'https://nightwatchjs.org',
 
       screenshots: {
-        enabled: false,
-        path: 'screens',
-        on_failure: true
+        enabled: true,
+        on_failure: true,
+        on_error: true,
+        path: 'tests_output/screenshots/'
       },
 
       desiredCapabilities: {
